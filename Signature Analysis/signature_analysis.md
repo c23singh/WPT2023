@@ -1,5 +1,9 @@
 # Signature Analysis
 
+### Signature Analysis Script:
+This script will display the manufacturer, serial number, battery status, and power received of a device given a series of qi messages. These qi messages can currently only be obtained by hand copying them from the qi sniffer’s software to a text file. One good area to place effort would be automating the process of placing qi messages read by the sniffer into a text file. The  graph of the power received by the phone can be used to predict which applications are running on the device.
+
+
 Manufacturer_Code	Make 	Model	b8	b7	b6	b5	b4	b3	b2	b1	b0
 
 90	Apple	Iphone 14	0x71	0x12	0x00	0x5a	0xf2	0xdc	0xd8	0xc2	0x0d
