@@ -14,3 +14,12 @@ The waveform generator can be used to inject your newly crafted waveform across 
 Qi Sniffer Software:
 The Qi Sniffer and its software can e used in tandem to collect several important pieces of information from the communication between a device a the power transmitter. The Qi Sniffer must be placed in very close proximity to the transmitter. We tended to place the sniffer under the transmitter with the phone on top of everything. Once this is complete, the software can start recording by pressing the play button. To stop the recording, press the stop button. These snapshots can be saved as a .qid file. These files can only be opened by the sniffer software. The hex for these files can be explored using hexed.it, however, no useful information was found within. This may be worth exploring to automate the data collection process. 
 
+Code	Make 	Model	b8	b7	b6	b5	b4	b3	b2	b1	b0
+90	Apple	Iphone 14	0x71	0x12	0x00	0x5a	0xf2	0xdc	0xd8	0xc2	0x0d
+90	Apple 	Iphone 14	0x71	0x12	0x00	0x5a	0xa9	0x89	0xab	0xc2	0x73
+90	Apple	Iphone 12	0x71	0x12	0x00	0x5a	0xa1	0x41	0x88	0x6a	0x0b
+90	Apple	iPhone13 (Updated)	0x71	0x12	0x00	0x5a	0x01	0xd1	0xf8	0x6d	0xbc
+90	Apple	iPhone13 (Not Updated)	0x71	0x12	0x00	0x5a	0xe2	0xd8	0xc8	0x6e	0x65
+114	Google	Pixel 7	0x71	0x12	0x00	0x72	0x00	0x12	0xc2	0xa5	0x64
+66	Samsung	Galaxy s7	0x71	0x11	0x00	0x42	0x64	0x4f	0x35	0x29	0x15
+90	Apple	Airpods 1st Pros	0x71	0x12	0x00	0x5a	0x75	0x91	0xb8	0xa8	0xcd
