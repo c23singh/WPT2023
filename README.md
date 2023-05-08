@@ -1,6 +1,22 @@
 # WPT2023
 
+## TODO: update readme - include summary and description of key accomplishments / project overview
+
 README
+
+## Problem Statement
+<ins>IDENTIFY</ins>
+
+What vulnerabilities exist within systems via wireless power transfer; how can these vulnerabilities be exploited and defended against?
+
+<ins>APPLY</ins>
+
+The initial phase of this research includes the reproduction and expansion of research related to injection based hijacking of the charging process and non-intrusive eavesdropping of the charging process allowing for interpreted analysis of device activity.
+
+<ins>EXPAND</ins>
+
+This serves as the initial point of research to be provided to the National Reconnaissance Office (NRO) and help observe various other methods of similar side-channel attacks such as taking advantage of point-to-point communication capabilities.
+
 
 Signature Analysis Script:
 This script will display the manufacturer, serial number, battery status, and power received of a device given a series of qi messages. These qi messages can currently only be obtained by hand copying them from the qi sniffer’s software to a text file. One good area to place effort would be automating the process of placing qi messages read by the sniffer into a text file. The  graph of the power received by the phone can be used to predict which applications are running on the device. 
