@@ -1,8 +1,7 @@
 # Wireless Power Transfer
 ### Research on WPT Side-channel Attacks and Exploit Mitigations of the Qi Wireless Charging Protocol
 
-
-## TODO: update readme - include summary and description of key accomplishments / project overview
+This research serves as an initial stage into the exploration of side-channel attacks and defensive mitigations for non-network, wireless, point-to-point communications systems
 
 ## Problem Statement
 <ins>IDENTIFY</ins>
@@ -19,14 +18,7 @@ This serves as the initial point of research to be provided to the National Reco
 
 ---
 
-## General Notes
 
-
-
-### Qi Sniffer Software:
-The Qi Sniffer and its software can e used in tandem to collect several important pieces of information from the communication between a device a the power transmitter. The Qi Sniffer must be placed in very close proximity to the transmitter. We tended to place the sniffer under the transmitter with the phone on top of everything. Once this is complete, the software can start recording by pressing the play button. To stop the recording, press the stop button. These snapshots can be saved as a .qid file. These files can only be opened by the sniffer software. The hex for these files can be explored using hexed.it, however, no useful information was found within. This may be worth exploring to automate the data collection process.
-
----
 ### Authors
 - Quinn Henry
 - Cole Hermanson
