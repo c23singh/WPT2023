@@ -1,0 +1,1 @@
+t1=0;t2=Tb   for i=1:N     t=[t1:Tb/100:t2]     %correlator     x=sum(c.*ask_sig(i,:));     %decision device     if x>0         demod(i)=1;     else         demod(i)=0;     end      t1=t1+(Tb+.01);     t2=t2+(Tb+.01);   end   %plot demodulated binary data bits   subplot(5,1,5);stem(demod);   title('ASK demodulated signal'); xlabel('n--->');ylabel('b(n)');grid on 3 
