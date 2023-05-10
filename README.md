@@ -3,6 +3,8 @@
 
 This research serves as an initial stage into the exploration of side-channel attacks and defensive mitigations for non-network, wireless, point-to-point communications systems
 
+---
+
 ## Problem Statement
 <ins>IDENTIFY</ins>
 
